@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
+set -xe
 
-sudo ssh -p22 jenkins@10.222.248.110
+sshpass -p jenkins1 ssh -o 'StrictHostKeyChecking=no' jenkins@10.222.248.110
 
 echo "Hello world gordon"
