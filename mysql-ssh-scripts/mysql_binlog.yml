@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: {repository: ubuntu}
+    repository: ubuntu
 
 inputs:
   - name: mysql-ssh-scripts
