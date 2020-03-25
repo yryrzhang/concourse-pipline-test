@@ -9,4 +9,4 @@ image_resource:
 inputs:
   - name: mysql-ssh-scripts
 run:
-    path: mysql-ssh-scripts/mysql-ssh-scripts/mysql.sh
+    path: mysql-ssh-scripts/mysql.sh
