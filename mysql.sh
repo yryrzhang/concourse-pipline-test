@@ -1,5 +1,4 @@
 #!/bin/bash
-set -xe
 
 echo "welcom to ssh script"
 
