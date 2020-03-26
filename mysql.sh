@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e -u -x
 echo "welcom to ssh script"
-apt-get update
-apt-get install openssh-server
+apt-get install sshpass
 echo "Hello world gordon"
